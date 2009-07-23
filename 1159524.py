@@ -20,4 +20,4 @@ def twiddle_csv(file1, file2):
                 writer.writerow(record)
 
 if __name__ == '__main__':
-    twiddle_csv('file1', 'file2')
+    twiddle_csv('1159524-file1', 'file2')

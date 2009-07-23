@@ -146,9 +146,3 @@ def get_historical_prices(symbol, start_date, end_date):
 	days = urllib.urlopen(url).readlines()
 	data = [day[:-2].split(',') for day in days]
 	return data
-
-
-targets = ['banana', 'loganberry', 'passion fruit']
-paragraph = "I eat bananas and a banana"
-
-print [paragraph.count(target) for target in targets]

@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+
+#    lc_test_count() 32.0043469212
+#    lc_test_re() 159.53696629
+#    map_test_count() 32.2445310787
+#    map_test_re() 163.78464302
+#    map_test_closure() 164.09920814
+
 import re
 
 paragraph = "I eat bananas and a banana " * 1000

@@ -28,6 +28,7 @@ def search(encoded_source, targets):
         x = len(t)-1
         # Get the indexes of the longest segments and search them first
         most_restrictive = [bb[0] for bb in sorted(((i, abs(t[i])) for i in range(1,x)), key=lambda x: x[1], reverse=True)]
+        # Align the signs of the source and target
         index = (0 if encoded_source[0] * t[0] > 0 else 1)
         unencoded_pos = sum(abs(c) for c in encoded_source[:index])
         start_t, end_t = abs(t[0]), abs(t[x])

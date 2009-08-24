@@ -9,5 +9,5 @@ def test_1252481():
 	
 
 if __name__ == '__main__':
-	print test_1252481()
-	print "Expect: ", ['thisfile.flt', 'box', '8.7', '10.5', '2.2', 'red.jpg']
+	print(test_1252481())
+	print("Expect: ", ['thisfile.flt', 'box', '8.7', '10.5', '2.2', 'red.jpg'])
